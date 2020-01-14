@@ -1,1 +1,0 @@
-sudo sed -i "s/CHEMRPSAPIURL/HELLOWORLD/g" /code/chemrpssearch.js

@@ -4,16 +4,13 @@
 
 
 
-#cp ./chemrps.env .env
 
-#sed -i -e "s/@CHEMRPS_UID/${CUID}/g" .env
-#sed -i -e "s/@CHEMRPS_GID/${CGID}/g" .env
 
 cp .env ./chemrpsapi/.env
 
 cp .env ./chemrpsbulksdfileloadconsole/.env
 
-#cp .chemrps.env ./chemrpslibrarytestconsole/chemrps.env
+
 
 cp .env ./chemrpsweb/.env
 

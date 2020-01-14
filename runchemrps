@@ -1,14 +1,9 @@
-#./chemrpsenvprepare
 
-#source .env
-
-#cp ./chemrps.env .env
-#./chemrpsenvprepare
 
 source .env
 
 
 
-#cd ./chemrpsapi
+
 
 docker-compose -f ./chemrps.yml up -d
