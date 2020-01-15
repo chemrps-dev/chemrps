@@ -1,9 +1,0 @@
-
-
-source .env
-
-
-
-
-
-docker-compose -f ./chemrps.yml up -d
