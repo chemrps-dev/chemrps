@@ -1,18 +1,10 @@
-#CUID="$(stat -c %u ~)"
-#CGID="$(stat -c %g ~)"
+cp .env ./api/.env
+
+cp .env ./bulksdfileloadconsole/.env
 
 
 
-
-
-
-cp .env ./chemrpsapi/.env
-
-cp .env ./chemrpsbulksdfileloadconsole/.env
-
-
-
-cp .env ./chemrpsweb/.env
+cp .env ./web/.env
 
 cp .env ./php/.env
 

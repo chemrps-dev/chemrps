@@ -16,7 +16,7 @@ services:
       
     web:
         build:
-         context: ./chemrpsweb
+         context: ./web
          dockerfile: Dockerfile
         
         
@@ -58,7 +58,7 @@ services:
              
     api:
         build:
-          context: ./chemrpsapi
+          context: ./api
           dockerfile: Dockerfile
         
         ports:
