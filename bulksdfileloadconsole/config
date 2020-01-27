@@ -1,6 +1,6 @@
 
 
-SDFILENAME=pubchemstructures_7records.sdf
+SDFILENAME=pubchemsample_100records.sdf
 
 COMPOUNDIDFIELDNAME=PubChemCID
 
