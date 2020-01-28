@@ -4,7 +4,11 @@ ChemRPS (Chemical Registration & Publishing System)
 Overview
 --------
 
-**ChemRPS** .. image:: docs/images/chemrps_logo_blue.jpg is a free Docker based system that allows you 
+**ChemRPS** 
+
+.. image:: docs/images/chemrps_logo_blue.jpg 
+
+is a free Docker based system that allows you 
 to load and search SDFiles by structure on your corporate website or local computer.
 
 The system comes with a preconfigured RDKit enabled PostGresql database, a search engine (API) and 
@@ -35,11 +39,13 @@ Windows
  docker version
 
 You should get an output similar to the below:
+
 .. image:: docs/images/chemrps_picture_1.png
 
  docker-compose –version
 
 You should get an output similar to the below:
+
 .. image:: docs/images/chemrps_picture_2.png
 
 Run simple test program
@@ -58,16 +64,19 @@ Open a terminal and run the following command:
  docker version
 
 You should get an output similar to the below:
+
 .. image:: docs/images/chemrps_picture_4.png
 
  docker-compose version
 You should get an output similar to the below:
+
 .. image:: docs/images/chemrps_picture_5.png 
 
 Run simple test program (with sudo or root rights)
  docker run hello-world
 
 You should get an output similar to the below:
+
 .. image:: docs/images/chemrps_picture_6.png
 
 Bugs, Comments and anything else
