@@ -4,15 +4,13 @@ ChemRPS (Chemical Registration & Publishing System)
 Overview
 --------
 
-**ChemRPS** 
-
 .. image:: docs/images/chemrps_logo_blue.jpg 
 
-is a free Docker based system that allows you 
+**ChemRPS** is a free Docker based system that allows you 
 to load and search SDFiles by structure on your corporate website or local computer.
 
 The system comes with a preconfigured RDKit enabled PostGresql database, a search engine (API) and 
-preconfigured register/search web pages including structure editor (Ketcher from EPAM).
+a preconfigured webserver with register/search web pages including structure editor (Ketcher from EPAM).
 It also contains a program that allows you to bulk load SDFiles.
 
 ChemRPS is intended to be used by small or medium sized companies looking for an easy way to make
@@ -32,52 +30,30 @@ Link to installer page:<https://docs.docker.com/install/>
 
 How to verify that Docker works?
 
-Windows
-
--Open command prompt
--Execute the following command:
- docker version
-
-You should get an output similar to the below:
-
-.. image:: docs/images/chemrps_picture_1.png
-
- docker-compose –version
-
-You should get an output similar to the below:
-
-.. image:: docs/images/chemrps_picture_2.png
-
 Run simple test program
 
--Open command prompt
+-Open command prompt (Windows) or terminal (Linux)
 -Execute the following command:
- docker run hello-world
-You should get an output similar to the below:
+ docker run hello-world (Windows)
+ or
+ sudo docker run hello-world (Linux)
 
-.. image:: docs/images/chemrps_picture_3.png
+This command downloads a test image and runs it in a container. 
+When the container runs, it prints an informational message similar
+to the below:
 
-Linux
+> docker run hello-world
 
-Open a terminal and run the following command:
+docker : Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+1b930d010525: Pull complete
+Digest: sha256:c3b4ada4687bbaa170745b3e4dd8ac3f194ca95b2d0518b417fb47e5879d9b5f
+Status: Downloaded newer image for hello-world:latest
 
- docker version
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+...
 
-You should get an output similar to the below:
-
-.. image:: docs/images/chemrps_picture_4.png
-
- docker-compose version
-You should get an output similar to the below:
-
-.. image:: docs/images/chemrps_picture_5.png 
-
-Run simple test program (with sudo or root rights)
- docker run hello-world
-
-You should get an output similar to the below:
-
-.. image:: docs/images/chemrps_picture_6.png
 
 Bugs, Comments and anything else
 --------------------------------
